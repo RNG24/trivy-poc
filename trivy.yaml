@@ -1,0 +1,10 @@
+vulnerability:
+  ignore-unfixed: true
+  ignorefile: .trivyignore
+misconfiguration:
+  skip-dirs:
+    - "vulnerable-app/config/"
+scan:
+  severity:
+    - CRITICAL
+    - HIGH
