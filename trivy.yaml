@@ -4,7 +4,7 @@ vulnerability:
 
 misconfiguration:
   skip-dirs:[]
-    #- "vulnerable-app/config/"
+    - "vulnerable-app/config/"
 
 secret:
   enabled: true
