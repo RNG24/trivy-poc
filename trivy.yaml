@@ -3,8 +3,8 @@ vulnerability:
   ignorefile: .trivyignore
 
 misconfiguration:
-  skip-dirs:
-    - "vulnerable-app/config/"
+  skip-dirs:[]
+    #- "vulnerable-app/config/"
 
 secret:
   enabled: true
