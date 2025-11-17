@@ -1,5 +1,6 @@
 from flask import Flask
 import requests
+SECRET_KEY="supersecretkey123456"
 app = Flask(__name__)
 @app.route("/run/<code>")
 def run_code(code):
